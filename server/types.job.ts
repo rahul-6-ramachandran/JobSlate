@@ -12,3 +12,12 @@ export enum JobType {
     'Hybrid' = 'Hybrid',
     'WFH' = 'WFH'
 }
+
+export enum InterviewStatus{
+    'Scheduled' = 'Scheduled',
+    'Not Scheduled' = 'Not Scheduled',
+    'No chance' = 'No chance',
+    'Selected' = 'Selected',
+    'Rejected' =' Rejected',
+    'Going on' =  'Going on'
+}
