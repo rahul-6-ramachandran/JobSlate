@@ -21,3 +21,12 @@ export enum InterviewStatus{
     'Rejected' =' Rejected',
     'Going on' =  'Going on'
 }
+
+
+// types
+
+export type filter = {
+    startDate : Date
+    endDate : Date
+}
+

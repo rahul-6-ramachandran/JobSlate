@@ -15,3 +15,4 @@ const applicationSchema : mongoose.Schema = new mongoose.Schema({
 })
 
 const Appliations = mongoose.model('Application', applicationSchema)
+export default Appliations
